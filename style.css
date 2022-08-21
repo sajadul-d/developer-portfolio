@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-#name-design{
+.name-design{
   color: orange;;
 }
 
@@ -13,6 +13,10 @@ h1{
 
 .flex-container{
   display: flex;
+  
+}
+
+.top-banner-section{
   background-image: url("images/top-banner.png");
   background-repeat: no-repeat;
 }
@@ -48,10 +52,36 @@ h1{
  second section is started from here
  */
  .dream-big-section{
-  display: flex;
   background-image: url("images/dream-bg.png");
   background-repeat: no-repeat;
-  background-position-y: 50px;
   background-position: right;
-  width: 102%;
+  width: 100%;
+ }
+
+ .experience-iteam{
+  box-shadow: 20px 15px 35px gray;
+  width: 40%;
+  margin-left: 5%;
+  padding: 20px;
+  border-radius: 8px;
+ }
+
+ .experince-section{
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 100%;
+ }
+
+ #full-stack-developer{
+  border-left: 7px solid tomato;
+ }
+
+ #baby-web-developer{
+  border-left: 7px solid blue;
+ }
+
+ footer p{
+  text-align: center;
+  padding: 30px;
  }
